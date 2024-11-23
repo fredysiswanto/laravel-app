@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -8,9 +8,10 @@
   <title>IPKP - @yield('title')</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="{{asset('css/custome.css')}}">
 </head>
 
-<body style="background: rgb(74, 73, 73); color: wheat; margin:10px">
+<body >
 
 
   <div class="container">

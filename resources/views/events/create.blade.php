@@ -10,7 +10,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="card border-0 shadow-sm rounded">
-        <div class="card-body">
+        <div class="card-body bg-dark">
           <form action="{{ route('events.store') }}" method="POST" enctype="multipart/form-data">
 
             @csrf
